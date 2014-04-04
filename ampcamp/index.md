@@ -18,55 +18,13 @@ You can navigate around the exercises by looking in the page header or footer an
 
 The components we will cover at the first Spark Training are listed below.
 
-## Introductory Exercises
-The tutorial begins with a set of introductory excercises which should be done _**sequentially**_.
+## Exercises
 
 1. [Scala](introduction-to-the-scala-shell.html) - a quick crashcourse on the Scala language and command line interface.
 2. [Spark](data-exploration-using-spark.html) [(project homepage)](http://spark.incubator.apache.org) - a fast cluster compute engine.
+3. <a href="movie-recommendation-with-mllib.html">Machine Learning with MLLib</a> <a href="http://spark.incubator.apache.org/docs/latest/mllib-guide.html">(project homepage)</a> - Build a movie recommender with Spark.
+4. [Optional] <a href="graph-analytics-with-graphx.html">Graph Analytics with GraphX</a> <a href="http://spark.incubator.apache.org/docs/latest/graphx-programming-guide.html">(project homepage)</a> - Explore graph-structured data (e.g., Web-Graph) and graph algorithms (e.g., PageRank) with GraphX.
 
-## Advanced Exercises
-
-<ol start="3">
-  <li><a href="movie-recommendation-with-mllib.html">Machine Learning with MLLib</a> <a href="http://spark.incubator.apache.org/docs/latest/mllib-guide.html">(project homepage)</a> - Build a movie recommender with Spark.</li>
-</ol>
-
-
-# Course Prerequisites
-A few of the components support multiple languages. In some sections of this training material, you can choose which language you want to use as you follow along and gain experience with the tools. The following table shows which languages this mini course supports for each section. You are welcome to mix and match languages depending on your preferences and interests.
-
-<center>
-<style type="text/css">
-table td, table th {
-  padding: 5px;
-}
-</style>
-<table class="bordered">
-<thead>
-<tr>
-  <th>Section</th>
-    <th><img src="img/scala-sm.png"/></th>
-    <th><img src="img/java-sm.png"/></th>
-    <th><img src="img/python-sm.png"/>
-  </th>
-</tr>
-</thead><tbody>
-<tr>
-  <td>Spark Interactive</td>
-  <td class="yes">yes</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-</tr><tr>
-  <td>Machine Learning</td>
-  <td class="yes">yes</td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-</tr>
-</tbody>
-</table>
-</center>
-
-# Providing feedback
-We are using the cutting edge versions (i.e., the master branches) of most of our software components, which means you may run into a few issues. If you do, please call over a TA and explain what's going on. To report a problem, please create a new issue at the <a href="https://github.com/amplab/training/issues">AMPLab's training docs Github issue Tracker</a> (there is also a link to this in the footer on all pages of the exercises).
 
 # Getting Started
 
